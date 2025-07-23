@@ -6,28 +6,37 @@
 /* CSS Variables */
 :root
 {
-    --primary-font: 'Inter', sans-serif; /* Inter font for body text */
-    --secondary-font: 'Macondo', cursive; /* Macondo font for headings */
-    --primary-color: #416a8e; /* Blue */
-    --secondary-color: #aa9581; /* Brown */
-    --highlight: #416a8e; /* Highlight color */
-    --highlight-color-light: #7a9fc2; /* Light highlight color */
+   --primary-font: "Inter", sans-serif;
+    --secondary-font: "Macondo", cursive;
+    --primary-color: #3a2620; /* dark brown */
+    --secondary-color: #aa9581; /* light brown */
+    --highlight-color: #416a8e; /* blue */
+    --highlight-color-light: #7a9fc2; /* light blue */
 }
 
+/* General Styles */
 body
 {
     font-family: var(--primary-font);
 }
 
+/* Headings */
 h1,h2,h3
 {
     font-family: var(--secondary-font);
     color: var(--primary-color);
 }
 
+/* Sub-heading color */
 .sub-heading-color
 {
     color: var(--highlight);
+}
+
+/* Navigation Bar */
+#navbar
+{
+    background-color: var(--primary-color);
 }
 
 /* Grid Visumalisation CSS for testing */
