@@ -74,7 +74,31 @@ h2
     background-color: transparent;
 }
 
+#new-games .card-footer
+{
+    font-weight: bold;
+    color: var(--highlight-color);
+    background-color: transparent;
+}
+
+#fav-games .card-footer
+{
+    font-weight: bold;
+    color: var(--highlight-color);
+    background-color: transparent;
+}
+
 #services .card
+{
+    margin-bottom: 1.5rem;
+}
+
+#new-games .card
+{
+    margin-bottom: 1.5rem;
+}
+
+#fav-games .card
 {
     margin-bottom: 1.5rem;
 }
@@ -105,9 +129,9 @@ Container, .row
     {
         min-height: 191px;
     }
-    #favourites .card-body
+    #fav-games .card-body
     {
-        min-height: 191px;
+        min-height: 215px;
     }
 }
 
@@ -122,7 +146,7 @@ Container, .row
     {
         min-height: auto;
     }
-    #favourites .card-body
+    #fav-games .card-body
     {
         min-height: auto;
     }
@@ -137,11 +161,11 @@ Container, .row
     }
     #new-games .card-body
     {
-        min-height: 220px;
+        min-height: 242px;
     }
-    #favourites .card-body
+    #fav-games .card-body
     {
-        min-height: 220px;
+        min-height: 242px;
     }
 }   
 
@@ -156,8 +180,8 @@ Container, .row
     {
         min-height: 195px;
     }
-    #favourites .card-body
+    #fav-games .card-body
     {
-        min-height: 195px;
+        min-height: 218px;
     }
 }
