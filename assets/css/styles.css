@@ -97,18 +97,18 @@ Container, .row
 /* Medium devices (tablets, 768px and up) */
 @media screen and (min-width: 768px)
 {
-#services .card-body
-{
-    min-height: 191px;
-}
-#new-games .card-body
-{
-    min-height: 191px;
-}
-#favourites .card-body
-{
-    min-height: 191px;
-}
+    #services .card-body
+    {
+        min-height: 191px;
+    }
+    #new-games .card-body
+    {
+        min-height: 191px;
+    }
+    #favourites .card-body
+    {
+        min-height: 191px;
+    }
 }
 
 /* Medium devices (tablets, 992px and up) */
