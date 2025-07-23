@@ -14,7 +14,7 @@
     --highlight-color-light: #7a9fc2; /* light blue */
 }
 
-/* General Styles */
+/* Global Styles */
 body
 {
     font-family: var(--primary-font);
@@ -25,12 +25,19 @@ h1,h2,h3
 {
     font-family: var(--secondary-font);
     color: var(--primary-color);
+    text-transform: uppercase;
 }
 
 /* Sub-heading color */
 .sub-heading-color
 {
-    color: var(--highlight);
+    color: var(--highlight-color);
+}
+
+.section
+{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 /* Navigation Bar */
@@ -42,6 +49,12 @@ h1,h2,h3
 .navbar .logo
 {
     width: 30px;
+}
+
+/* Header Styles */
+#header .lead
+{
+    font-family: var(--secondary-font);
 }
 
 /* Grid Visumalisation CSS for testing */
