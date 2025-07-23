@@ -1,11 +1,10 @@
 /* Formatting style: opening braces on new lines, indented properties */
 /* This file contains the styles for the Boardwalk Games website */
 /* Importing Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Macondo&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Macondo&display=swap");
 
 /* CSS Variables */
-:root
-{
+:root {
     --primary-font: "Inter", sans-serif;
     --secondary-font: "Macondo", cursive;
     --primary-color: #3a2620; /* dark brown */
@@ -15,92 +14,118 @@
 }
 
 /* Global Styles */
-body
-{
+body {
     font-family: var(--primary-font);
 }
 
 /* Headings */
-h1,h2,h3
-{
+h1,
+h2,
+h3 {
     font-family: var(--secondary-font);
     color: var(--primary-color);
 }
 
-h1,h2
-{
+h1,
+h2 {
     text-transform: uppercase;
 }
 
-
-h2
-{
+h2 {
     margin-bottom: 2rem;
 }
 
 /* Sub-heading color */
-.sub-heading-color
-{
+.sub-heading-color {
     color: var(--highlight-color);
 }
 
-.section
-{
+.section {
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
 
 /* Navigation Bar */
-.navbar
-{
+.navbar {
     background-color: var(--primary-color);
 }
 
-.navbar .logo
-{
+.navbar .logo {
     width: 30px;
 }
 
 /* Header Styles */
-#header .lead
-{
+#header .lead {
     font-family: var(--secondary-font);
 }
 
-#services .card-footer
-{
+#services .card-footer {
     font-weight: bold;
     color: var(--highlight-color);
     background-color: transparent;
 }
 
-#new-games .card-footer
-{
+#new-games .card-footer {
     font-weight: bold;
     color: var(--highlight-color);
     background-color: transparent;
 }
 
-#fav-games .card-footer
-{
+#fav-games .card-footer {
     font-weight: bold;
     color: var(--highlight-color);
     background-color: transparent;
 }
 
-#services .card
-{
+#services .card {
     margin-bottom: 1.5rem;
 }
 
-#new-games .card
-{
+#new-games .card {
     margin-bottom: 1.5rem;
 }
 
-#fav-games .card
-{
+/* Favorite Games */
+#fav-games .card {
     margin-bottom: 1.5rem;
+}
+
+/* New Games and Favorite Games Cards */
+#new-games .card,
+#fav-games .card {
+    border: none;
+}
+
+/* Footer Styles */
+#contact {
+    background-color: var(--primary-color);
+    color: white;
+    padding-bottom: 3rem;
+}
+
+#contact h2 {
+    color: white;
+}
+
+#contact .sub-heading-color {
+    color: var(--highlight-color-light);
+}
+
+#contact i {
+    color: var(--secondary-color);
+    font-size: 1.2rem;
+    margin-right: 15px;
+}
+
+#contact .social-icons i
+{
+    color: var(--highlight-color-light);
+    font-size: 1.2rem;
+    transition: color 0.3s ease-in-out;
+}
+
+#contact .social-icons i:hover {
+    color: var(--secondary-color);
 }
 
 /* Grid Visualisation CSS for testing */
@@ -117,71 +142,55 @@ Container, .row
 }
  */
 
- /* Media queries */
+/* Media queries */
 /* Medium devices (tablets, 768px and up) */
-@media screen and (min-width: 768px)
-{
-    #services .card-body
-    {
+@media screen and (min-width: 768px) {
+    #services .card-body {
         min-height: 191px;
     }
-    #new-games .card-body
-    {
+    #new-games .card-body {
         min-height: 191px;
     }
-    #fav-games .card-body
-    {
+    #fav-games .card-body {
         min-height: 215px;
     }
 }
 
 /* Medium devices (tablets, 992px and up) */
-@media screen and (min-width: 992px)
-{
-    #services .card-body
-    {
+@media screen and (min-width: 992px) {
+    #services .card-body {
         min-height: auto;
     }
-    #new-games .card-body
-    {
+    #new-games .card-body {
         min-height: auto;
     }
-    #fav-games .card-body
-    {
+    #fav-games .card-body {
         min-height: auto;
     }
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
-@media screen and (min-width: 1200px)
-{
-    #services .card-body
-    {
+@media screen and (min-width: 1200px) {
+    #services .card-body {
         min-height: 220px;
     }
-    #new-games .card-body
-    {
+    #new-games .card-body {
         min-height: 242px;
     }
-    #fav-games .card-body
-    {
+    #fav-games .card-body {
         min-height: 242px;
     }
-}   
+}
 
 /* Extra Extra large devices (larger desktops, 1400px and up) */
-@media screen and (min-width: 1400px)
-{
-    #services .card-body
-    {
+@media screen and (min-width: 1400px) {
+    #services .card-body {
         min-height: 195px;
     }
-    #new-games .card-body
-    {
+    #new-games .card-body {
         min-height: 195px;
     }
-    #fav-games .card-body
-    {
+    #fav-games .card-body {
         min-height: 218px;
     }
 }
