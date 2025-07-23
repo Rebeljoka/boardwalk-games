@@ -101,12 +101,28 @@ Container, .row
 {
     min-height: 191px;
 }
+#new-games .card-body
+{
+    min-height: 191px;
+}
+#favourites .card-body
+{
+    min-height: 191px;
+}
 }
 
 /* Medium devices (tablets, 992px and up) */
 @media screen and (min-width: 992px)
 {
     #services .card-body
+    {
+        min-height: auto;
+    }
+    #new-games .card-body
+    {
+        min-height: auto;
+    }
+    #favourites .card-body
     {
         min-height: auto;
     }
@@ -119,12 +135,28 @@ Container, .row
     {
         min-height: 220px;
     }
+    #new-games .card-body
+    {
+        min-height: 220px;
+    }
+    #favourites .card-body
+    {
+        min-height: 220px;
+    }
 }   
 
 /* Extra Extra large devices (larger desktops, 1400px and up) */
 @media screen and (min-width: 1400px)
 {
     #services .card-body
+    {
+        min-height: 195px;
+    }
+    #new-games .card-body
+    {
+        min-height: 195px;
+    }
+    #favourites .card-body
     {
         min-height: 195px;
     }
