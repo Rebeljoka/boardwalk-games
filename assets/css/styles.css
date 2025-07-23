@@ -34,7 +34,7 @@ h1,h2,h3
 }
 
 /* Navigation Bar */
-#navbar
+.navbar
 {
     background-color: var(--primary-color);
 }
