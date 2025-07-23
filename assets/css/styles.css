@@ -1,12 +1,22 @@
+/* Formatting style: opening braces on new lines, indented properties */
+/* This file contains the styles for the Boardwalk Games website */
+/* Importing Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Macondo&display=swap');
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-family: 'Macondo', cursive;
-}p {
-    font-family: 'Inter', sans-serif;
+/* CSS Variables */
+:root
+{
+    --primary-font: 'Inter', sans-serif; /* Inter font for body text */
+    --secondary-font: 'Macondo', cursive; /* Macondo font for headings */
+    --primary-color: #416a8e; /* Blue */
+}
+
+body {
+    font-family: var(--primary-font);
+}
+
+h1,h2,h3
+{
+    font-family: var(--secondary-font);
+    color: var(--primary-color);
 }
