@@ -155,6 +155,11 @@ h2 {
     background-color: transparent;
 }
 
+/* Events table hover effect */
+#events .table-hover tbody tr:hover {
+    background-color: rgba(0, 0, 0, 0.075);
+}
+
 /* Grid Visualisation CSS for testing */
 /*
 Container, .row
