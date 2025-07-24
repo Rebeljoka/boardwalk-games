@@ -7,10 +7,14 @@
 :root {
     --primary-font: "Inter", sans-serif;
     --secondary-font: "Macondo", cursive;
-    --primary-color: #3a2620; /* dark brown */
-    --secondary-color: #aa9581; /* light brown */
-    --highlight-color: #416a8e; /* blue */
-    --highlight-color-light: #7a9fc2; /* light blue */
+    --primary-color: #3a2620;
+    /* dark brown */
+    --secondary-color: #aa9581;
+    /* light brown */
+    --highlight-color: #416a8e;
+    /* blue */
+    --highlight-color-light: #7a9fc2;
+    /* light blue */
 }
 
 /* Global Styles */
@@ -164,7 +168,7 @@ h2 {
 /*
 Container, .row
 {
-    border: 2px solid black;
+border: 2px solid black;
 } 
 
 .col-12
@@ -180,9 +184,11 @@ Container, .row
     #services .card-body {
         min-height: 191px;
     }
+
     #new-games .card-body {
         min-height: 191px;
     }
+
     #fav-games .card-body {
         min-height: 215px;
     }
@@ -193,9 +199,11 @@ Container, .row
     #services .card-body {
         min-height: auto;
     }
+
     #new-games .card-body {
         min-height: auto;
     }
+
     #fav-games .card-body {
         min-height: auto;
     }
@@ -206,9 +214,11 @@ Container, .row
     #services .card-body {
         min-height: 220px;
     }
+
     #new-games .card-body {
         min-height: 242px;
     }
+
     #fav-games .card-body {
         min-height: 242px;
     }
@@ -219,9 +229,11 @@ Container, .row
     #services .card-body {
         min-height: 195px;
     }
+
     #new-games .card-body {
         min-height: 195px;
     }
+
     #fav-games .card-body {
         min-height: 218px;
     }
