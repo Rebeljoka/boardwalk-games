@@ -117,15 +117,18 @@ h2 {
     margin-right: 15px;
 }
 
-#contact .social-icons i
-{
+#contact .social-links i {
     color: var(--highlight-color-light);
     font-size: 1.2rem;
     transition: color 0.3s ease-in-out;
 }
 
-#contact .social-icons i:hover {
+#contact .social-links i:hover {
     color: var(--secondary-color);
+}
+
+#contact .table * {
+    background-color: transparent;
 }
 
 /* Grid Visualisation CSS for testing */
